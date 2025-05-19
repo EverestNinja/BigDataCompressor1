@@ -8,10 +8,10 @@ from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 
-import compression_algorithms as ca
-import data_generator as dg
-import utils
-from adaptive_framework import AdaptiveCompressionFramework
+from src import compression_algorithms as ca
+from src import data_generator as dg
+from src import utils
+from src.adaptive_framework import AdaptiveCompressionFramework
 
 def run_interactive_demo():
     st.title("Interactive Compression Techniques Demo")

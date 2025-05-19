@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-import compression_algorithms as ca
-import data_generator as dg
-import visualization as viz
-import comparative_analysis as analysis
-import utils
+from src import compression_algorithms as ca
+from src import data_generator as dg
+from src import visualization as viz
+from src import comparative_analysis as analysis
+from src import utils
 
 # Page configuration
 st.set_page_config(

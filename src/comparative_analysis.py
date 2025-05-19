@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import time
 import random
 
-import compression_algorithms as ca
-import data_generator as dg
-import utils
+from src import compression_algorithms as ca
+from src import data_generator as dg
+from src import utils
 
 def benchmark_algorithms(data, algorithms=None):
     """

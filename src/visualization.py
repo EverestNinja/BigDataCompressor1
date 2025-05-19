@@ -5,9 +5,9 @@ import seaborn as sns
 import io
 from PIL import Image
 
-import data_generator as dg
-import compression_algorithms as ca
-import comparative_analysis as analysis
+from src import data_generator as dg
+from src import compression_algorithms as ca
+from src import comparative_analysis as analysis
 
 # Set style for all plots
 plt.style.use('seaborn-v0_8-darkgrid')

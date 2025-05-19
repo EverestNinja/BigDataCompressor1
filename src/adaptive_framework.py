@@ -2,8 +2,8 @@ import numpy as np
 import math
 import time
 
-import compression_algorithms as ca
-import utils
+from src import compression_algorithms as ca
+from src import utils
 
 class AdaptiveCompressionFramework:
     """
